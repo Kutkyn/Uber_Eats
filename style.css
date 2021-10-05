@@ -1,0 +1,44 @@
+.background {
+	background-color: white;
+	background-image: url(https://images.all-free-download.com/images/graphiclarge/seamless_pattern_food_312943.jpg);	
+	height: 650px;
+}
+.text{
+	font-size: 30px;
+}
+h4::after{
+	content: "Eats";
+	color: green;
+	font-size: 30px;
+}
+.text2{
+	font-size: 40px;
+}
+input,
+select,
+.input-select{
+font-size: 30px;
+}
+.but1{
+	background-color: black;
+	color: white;
+	font-size: 30px;
+}
+.but2{
+position: relative;
+bottom: 190px;
+left: 570px;
+font-size: 30px;
+height: 50px;
+border-radius: 30px/40px;
+}
+.link{
+	color: black;
+	text-decoration: none;
+}
+
+.textlink{
+	color: black;
+	text-decoration: no-underline;
+	font-size: 20px;
+}
