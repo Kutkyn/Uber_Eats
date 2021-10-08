@@ -1,7 +1,10 @@
-.background {
-	background-color: white;
-	background-image: url(https://images.all-free-download.com/images/graphiclarge/seamless_pattern_food_312943.jpg);	
-	height: 650px;
+body{
+	margin: 0;
+	padding: 0;
+	background: url(https://images.all-free-download.com/images/graphiclarge/seamless_pattern_food_312943.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+	font-family: UberMoveText, sans-serif;
 }
 .text{
 	font-size: 30px;
@@ -14,23 +17,39 @@ h4::after{
 .text2{
 	font-size: 40px;
 }
-input,
-select,
-.input-select{
-font-size: 30px;
+input{
+font-size: 17px;
+height:40px ;
+width:400px ;
+background-color: lavender;
+border: solid 0px;
 }
+select{
+	font-size: 17px;
+	width: 130px;
+	height: 45px;
+	background-color: lavender;
+	border: solid 0px;
+}
+
 .but1{
 	background-color: black;
 	color: white;
-	font-size: 30px;
+	position:relative;
+	font-size: 17px;
+	height: 45px;
+	border: solid 0px;
 }
 .but2{
-position: relative;
-bottom: 190px;
-left: 570px;
-font-size: 30px;
-height: 50px;
-border-radius: 30px/40px;
+	background-color:lavender;
+	position:fixed;
+	top: 50px;
+	left: 1400px;
+	font-size: 20px;
+	height: 60px;
+	width: 90px;	
+	border-radius: 50px/50px;
+	border: solid 0px;
 }
 .link{
 	color: black;
@@ -38,7 +57,8 @@ border-radius: 30px/40px;
 }
 
 .textlink{
-	color: black;
+	color-interpolation: black;
 	text-decoration: no-underline;
-	font-size: 20px;
+	font-size: 14px;
 }
+
