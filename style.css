@@ -1,7 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
-	border: 0;
+	/*border: 0;*/
 }
 *,*:before,*:after{
 	-moz-box-sizing: border-box;
@@ -33,13 +33,28 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 body{
-	background: url(https://img5.goodfon.ru/wallpaper/nbig/4/39/belyi-fon-kofe-kruasany.jpg);
+	background: url(picture/picture_background.jpg);
 	background-size: 100% 720px;
 	background-repeat: no-repeat;
 	font-family: Trebuchet MS, sans-serif;
 }
 .block_heading{
-	margin: 40px 40px 30px 40px;
+	width: 100%;
+	height: 720px;
+}
+.head{
+	margin: 5px 40px 0px 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+}
+.icon{
+	font-size: 25px;
+	margin: 0 20px 20px 0;
+	font-weight: 1000;
+	color: black;
 }
 .heading:after{
 	content: "Eats";
@@ -50,37 +65,37 @@ body{
 	font-size: 30px;
 	color: black;
 }
-.login{
-	font-size: 30px;
-	border-radius: 50px 50px; 
+.sign-in-link{
+	max-height: 32px;
+	max-width: 57px;
+	padding: 12px 16px;
+	height: 32px;
+	width: 57px;
+	border-radius: 50px 50px;
 	background-color: lavender;
 	color: black;
-	position: relative;
-	left: 1200px;
-	height: 50px;
-	width: 90px;
-}
-.sign_in{
-	display: block;
-	color: black;
-	font-size: 20px;
-	height: 25px;
+	font-size: 18px;
 }
 .block_text{
-	margin: 200px 0 0 0;
+	margin: 10px 0 40px 40px;
+	height: 200px;
+	padding: 152px 0 0 0;
 }
 .text{
 	font-size: 48px;
 	font-weight: 700;
-	margin: 0 0 40px 0;
+}
+.block_input{
+	margin: 0 0 0 40px;
+	display: flex;
 }
 .address{
 	padding: 16px 16px 16px 16px;
 	width: 460px;
 	max-height: 50px;
+	height: 400px;
 	font-size: 17px;
 	border: 2px solid black;
-	background-image: url(clock.png)center no-repeat;
 }
 .select_delivery{
 	width: 190px;
@@ -98,14 +113,187 @@ body{
 	font-size: 17px;
 }
 .textlink{
+	color: black;
+	text-decoration: underline;
 	font-size: 17px;
 }
 .block_textlink{
-	margin: 10px 0 0 0;
+	margin: 10px 0 0 40px;
 	font-size: 17px;
 }
-.textlink{
+
+/*Основная информация страницы*/
+
+.section__images__links{
+	margin: 80px 20px 50px 20px;
+	height: 350px;	
+}
+.row{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-basis: 100%;
+}
+.block__link{
+	padding: 0 10px 0 10px;
+}
+.image img{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+.element__1{
+	font-size: 30px;
+	font-weight: 800;
 	color: black;
-	color-interpolation: black;
+}
+.element__2{
+	font-size: 16px;
 	text-decoration: underline;
+	color: black;
+}
+
+/*Блок карты*/
+
+.title__map{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0px 25px 100px;
+	margin: ;
+}
+.title{
+	font-size: 40px;
+	font-weight: 800;
+}
+.link__maps{
+	padding: 24px 100px 0 0;
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+	text-decoration: underline;
+}
+.google__maps{
+	padding: 0 100px 30px 100px;
+	border: 0;
+}
+
+/* Области */
+
+.block__areas{
+	padding: 0 50px 0 50px;
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction:	row;
+	line-height: 50px;	
+}
+.row__1,
+.row__2,
+.row__3,
+.row__4{
+	display: flex;
+	flex-direction: column;
+}
+.block__areas a{
+	font-size: 15px;
+	color: black;
+	font-weight: 0;
+	font-style: italic;
+}
+
+/*Страны*/
+
+.block__country{
+	padding: 80px 0 0 0;
+}
+.countries{
+	margin: 24px 0 0 0;
+	padding: 0 50px 0 50px;
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-around;
+	flex-direction: row;
+	line-height: 50px;
+}
+.countries a{
+	font-size: 15px;
+	color: black;
+	font-weight: 0;
+	font-style: italic;
+}
+.title__counry{
+	padding: 0 0 0 100px;
+}
+
+/*Footer*/
+
+.container__footer{
+	margin: 80px 0 0 0;
+	padding: 72px 0 88px 0;
+	height: 450;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.block__footer{
+	display: flex;
+	padding: 0 100px 0 100px;
+	justify-content: space-between;
+}
+.title__link a{
+	color: white
+}
+.title__link{
+	display: flex;
+	flex-direction:column ;
+	justify-content: space-between;
+}
+.icons img{
+	width: 135px;
+	height: 40px;
+}
+.block__lists{
+	display: flex;
+	flex-basis: 50%;
+	justify-content: space-around;
+}
+.block__lists a,li{
+	font-size: 16px;
+	color: white;
+	line-height: 40px;
+	text-decoration: none;
+	flex: 0 0 190;
+	flex-wrap: nowrap;
+}
+.block__list__1
+.block__list__2 a,li:hover{
+	text-decoration: underline;
+}
+.space hr{
+	margin: 40px 35px 40px 35px;	
+}
+.final__links{
+	padding: 0 30px 30px 60px;
+	display: flex;
+	flex-basis: 50%;
+	justify-content: flex-end;
+}
+.last__links{
+	display: flex;
+	flex-basis: 35%;
+	justify-content: space-between;
+
+}
+.last__links a{
+	color: white;
+	font-size: 16px;
+}
+.last__links a:hover{
+	text-decoration: underline;
+}
+.license{
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 30px 0 0;
 }
