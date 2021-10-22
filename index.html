@@ -4,197 +4,273 @@
 	<meta charset="UTF-8">
   <title>UberEats</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <link rel="apple-touch-icon" sizes="120x120" href="picture/Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="picture/Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="picture/Favicon/favicon-16x16.png">
+  <link rel="manifest" href="picture/Favicon/site.webmanifest">
+  <link rel="mask-icon" href="picture/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#181313">
 </head>
 <body>
-<header>
-  <div class="block_heading">
-    <div class="head">
-      <div class="icon-title">
-    <a href="#" class="icon">&#9776</a>
-    <a href="#" class="heading">Uber</a>
+<header class="header">
+  <div class="container">
+    <div class="header-top">
+      <div class="header-top__content">
+        <div class="head-content__menu-logo">
+          <a class="menu" href="#">&#9776</a>
+          <a class="logo" href="#">Uber</a>
+        </div>
+        <div class="head-content__link-login">
+          <a class="link-login" href="#">Sign in</a>
+        </div>
+      </div>
     </div>
-    <div class="sign_in">
-    <a href="#" class="sign-in-link">Sign in</a>
+    <div class="header-subtitle">
+      <h1 class="subtitle__text">Order your neighborhood's top spots</h1>   
     </div>
-  </div>
-  <div class="block_text">
-    <h1 class="text">Order your neighborhood's top spots</h1> 
-  </div>
-    <div class="block_input">
-      <input type="text" class="address" placeholder="Enter delivery address">
-      <select class="select_delivery">
-        <option>Deliver now</option>
-        <option>Schelude for later</option>
-      </select>
-      <button class="search">Find Food</button>   
-    </div>
-    <div class="block_textlink">
+    <form class="header-search">
+      <div class="header-search__input-place">
+        <input class="input" type="text" placeholder="Enter delivery address">
+      </div>
+      <div class="header-search__select-place">
+        <select class="select">
+          <option>Deliver now</option>
+          <option>Schelude for later</option>
+        </select>
+      </div>
+      <div class="header-search__button-place">
+        <button class="button">Find Food</button>   
+      </div>
+    </form>
+    <div class="header-textlink">
       <p ><a href="#" class="textlink">Sign In</a> for your recent addresses</p>
     </div>
   </div>
 </header>
-<div class="section__images__links">
-   <div class="row">
-      <div class="block__link"><a href="#">
-        <div class="image"><img src="picture/picture1.jpg">
-          <div class="text__body">
-            <div class="element__1"><p>Feed your employees</p></div>
-            <div class="element__2"><p>Create a business account</p></div>
-          </div>
-        </div></a>
+<section class="section-images">
+  <div class="container">
+    <div class="section-links">
+      <div class="section-links__items">
+        <div class="item-link">
+          <a href="#">
+            <div class="image">
+              <img src="picture/picture1.jpg">
+                <div class="item-text">
+                  <div class="item-title"><p>Feed your employees</p></div>
+                  <div class="item-subtitle"><p>Create a business account</p></div>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="item-link">
+          <a href="#">
+            <div class="image">
+              <img src="picture/picture2.jpg">
+                <div class="item-text">
+                  <div class="item-title"><p>Your restaurant,delivered</p></div>
+                  <div class="item-subtitle"><p>Add your restaurant</p></div>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="item-link">
+          <a href="#">
+            <div class="image">
+              <img src="picture/picture3.jpg">
+                <div class="item-text">
+                  <div class="item-title"><p>Deliver with Uber Eats</p></div>
+                  <div class="item-subtitle"><p>Sign up to deliver</p></div>
+                </div>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="block__link"><a href="#">
-        <div class="image"><img src="picture/picture2.jpg">
-          <div class="text__body">
-            <div class="element__1"><p>Your restaurant,delivered</p></div>
-            <div class="element__2"><p>Add your restaurant</p></div>
-          </div>
-        </div></a>
+    </div>
+  </div>
+</section>
+<section class="section-map">
+  <div class="container">
+    <div class="google-map">
+      <div class="google-map__map-title">
+        <h2 class="title">Cities near me</h2>
+        <a href="#" class="map-link">View all 500+cities</a>
       </div>
-      <div class="block__link"><a href="#">
-        <div class="image"><img src="picture/picture3.jpg">
-          <div class="text__body">
-            <div class="element__1"><p>Deliver with Uber Eats</p></div>
-            <div class="element__2"><p>Sign up to deliver</p></div>
-          </div>
-        </div></a>
+      <div class="google-map__map-coordinates">
+      <iframe class="map-coordinates" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4160825.0485620108!2d27.897925223974486!3d49.390853328608905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1634498901083!5m2!1sru!2sua" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>  
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-areas">
+  <div class="container">
+    <div class="section-areas__columns"> 
+      <div class="column">
+        <a href="#">Donetsk</a>
+        <a href="#">Luhansk</a>
+        <a href="#">Vinnytsia</a>
+        <a href="#">Dnipro</a>
+        <a href="#">Kharkiv</a>
+        <a href="#">Kherson</a>
+      </div>
+      <div class="column">
+        <a href="#">Zhytomyr</a>
+        <a href="#">Uzhhorod</a>
+        <a href="#">Zaporizhzhia</a>
+        <a href="#">Ivano-Frankivsk</a>
+        <a href="#">Khmelnytskyi</a>
+        <a href="#">Cherkasy</a>
+      </div>
+      <div class="column">
+        <a href="#">Kyiv</a>
+        <a href="#">Lviv</a>
+        <a href="#">Mykolaiv</a>
+        <a href="#">Odessa</a>
+        <a href="#">Chernihiv</a>
+        <a href="#">Chernivtsi</a>
+      </div>
+      <div class="column">
+        <a href="#">Poltava</a>
+        <a href="#">Rivne</a>
+        <a href="#">Sumy</a>
+        <a href="#">Ternopil</a>
+        <a href="#">Kropyvnytskyi</a>
+        <a href="#">Lutsk</a>
       </div>
     </div>
   </div> 
-  <div class="google__map">
-    <div class="title__map">
-      <h2 class="title">Cities near me</h2>
-      <a href="#" class="link__maps">View all 500+cities</a>
-    </div>
-    <div class="map">
-    <iframe class="google__maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4160825.0485620108!2d27.897925223974486!3d49.390853328608905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1634498901083!5m2!1sru!2sua" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>  
+</section> 
+<section class="section-countries">
+  <div class="container">
+    <div class="section-countries__columns">
+      <div class="country-title">
+        <h2 class="title">Countries with Uber Eats</h2>
+      </div>
+      <div class="countries">
+        <div class="column">
+          <a href="#">United States</a>
+          <a href="#">Spain</a>
+          <a href="#">Brazil</a>
+          <a href="#">Mexico</a>
+          <a href="#">France</a>
+          <a href="#">Japan</a>
+        </div>
+        <div class="column">
+          <a href="#">Canada</a>
+          <a href="#">Australia</a>
+          <a href="#">Poland</a>
+          <a href="#">United Kingdom</a>
+          <a href="#">Italy</a>
+          <a href="#">Portugal</a>
+        </div>
+        <div class="column">
+          <a href="#">Switzerland</a>
+          <a href="#">Chile</a>
+          <a href="#">New Zelandia</a>
+          <a href="#">Taiwan(ROC)</a>
+          <a href="#">South Africa</a>
+          <a href="#">Belgium</a>
+        </div>
+        <div class="column">
+          <a href="#">Ecuador</a>
+          <a href="#">Ireland</a>
+          <a href="#">Sri Lanka</a>
+          <a href="#">Sweden</a>
+          <a href="#">Guatemala</a>
+          <a href="#">Costa Rica</a>
+        </div>   
+      </div>
     </div>
   </div>
-<div class="block__areas"> 
-    <div class="row__1">
-      <a href="#">Donetsk</a>
-      <a href="#">Luhansk</a>
-      <a href="#">Vinnytsia</a>
-      <a href="#">Dnipro</a>
-      <a href="#">Kharkiv</a>
-      <a href="#">Kherson</a>
-    </div>
-    <div class="row__2">
-      <a href="#">Zhytomyr</a>
-      <a href="#">Uzhhorod</a>
-      <a href="#">Zaporizhzhia</a>
-      <a href="#">Ivano-Frankivsk</a>
-      <a href="#">Khmelnytskyi</a>
-      <a href="#">Cherkasy</a>
-    </div>
-    <div class="row__3">
-      <a href="#">Kyiv</a>
-      <a href="#">Lviv</a>
-      <a href="#">Mykolaiv</a>
-      <a href="#">Odessa</a>
-      <a href="#">Chernihiv</a>
-      <a href="#">Chernivtsi</a>
-    </div>
-    <div class="row__4">
-      <a href="#">Poltava</a>
-      <a href="#">Rivne</a>
-      <a href="#">Sumy</a>
-      <a href="#">Ternopil</a>
-      <a href="#">Kropyvnytskyi</a>
-      <a href="#">Lutsk</a>
-    </div>
-</div>  
-<div class="block__country">
-  <div class="title__counry">
-    <h2 class="title">Countries with Uber Eats</h2>
-  </div>
-  <div class="countries">
-  <div class="row__1">
-    <a href="#">United States</a>
-    <a href="#">Spain</a>
-    <a href="#">Brazil</a>
-    <a href="#">Mexico</a>
-    <a href="#">France</a>
-    <a href="#">Japan</a>
-  </div>
-  <div class="row__2">
-    <a href="#">Canada</a>
-    <a href="#">Australia</a>
-    <a href="#">Poland</a>
-    <a href="#">United Kingdom</a>
-    <a href="#">Italy</a>
-    <a href="#">Portugal</a>
-  </div>
-  <div class="row__3">
-    <a href="#">Switzerland</a>
-    <a href="#">Chile</a>
-    <a href="#">New Zelandia</a>
-    <a href="#">Taiwan(ROC)</a>
-    <a href="#">South Africa</a>
-    <a href="#">Belgium</a>
-  </div>
-  <div class="row__4">
-    <a href="#">Ecuador</a>
-    <a href="#">Ireland</a>
-    <a href="#">Sri Lanka</a>
-    <a href="#">Sweden</a>
-    <a href="#">Guatemala</a>
-    <a href="#">Costa Rica</a>
-  </div>   
-  </div>
-</div>
-<footer>
-  <div class="container__footer">
-    <div class="block__footer">
-      <div class="title__link">
-        <a href="#" class="heading">Uber</a>
+</section>
+<footer class="footer">
+  <div class="footer-bg">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-content__logo-images">
+          <a href="#" class="logo">Uber</a>
         <div class="icons">
-        <a href="#">
-          <img src="picture/app_store_icon.png">
-          <img src="picture/google_play_icon.png">
-        </a>
+          <a href="#">
+            <img src="picture/app_store_icon.png">
+          </a>
+          <a href="#">
+            <img src="picture/google_play_icon.png">
+          </a>
+        </div>
+        </div>  
+        <div class="footer-content__menu">
+          <div class="menu-list">
+            <ul>
+              <a href="#">
+              <li>Get Help</li>
+              </a>
+              <a href="#">
+               <li>Buy gift cards</li>
+              </a>
+              <a href="#">
+                <li>Add your restaurant</li>
+              </a>
+              <a href="#">
+                <li>Sign up to deliver</li>
+              </a>
+              <a href="#">
+                <li>Create a business account</li>
+              </a>
+              <a href="#">
+                <li>Save on your first order</li>
+              </a>
+            </ul>
+          </div>
+          <div class="menu-list">
+            <ul>
+              <a href="#">
+                <li>Restaurants near me</li>
+              </a>
+              <a href="#">
+                <li>View all cities</li>
+              </a>
+              <a href="#">
+                <li>View all countries</li>
+              </a>
+              <a href="#">
+                <li>Read our blog</li>
+              </a> 
+              <a href="#">
+                <li>About UberEats</li>
+              </a>
+              <a href="#">
+                <li>Language</li>
+              </a>
+            </ul>
+          </div>
+        </div>
       </div>
+      <div class="footer-space">
+        <hr>
       </div>
-    <div class="block__lists">
-      <div class="block__list__1">
-      <a href="#">
-        <ul>
-          <li>Get Help</li>
-          <li>Buy gift cards</li>
-          <li>Add your restaurant</li>
-          <li>Sign up to deliver</li>
-          <li>Create a business account</li>
-          <li>Save on your first order</li>
-        </ul>
-      </a>
+      <div class="footer-content__bottom">
+        <div class="social-network">
+          <a href="#">
+            <img class="icon" src="picture/facebook.png">
+          </a>
+          <a href="#">
+            <img class="icon" src="picture/twitter.png">
+          </a>
+          <a href="#">
+            <img class="icon" src="picture/instagram.png">
+          </a>      
+        </div>
+        <div class="bottom-content">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a> 
+        <a href="#">Pricing</a>
+        <a href="#">Do not sell my info(California)</a>
+        </div>
       </div>
-      <div class="block__list__2">
-      <a href="#">
-        <ul>
-          <li>Restaurants near me</li>
-          <li>View all cities</li>
-          <li>View all countries</li>
-          <li>Read our blog</li>
-          <li>About UberEats</li>
-          <li>Language</li>
-        </ul>
-      </a>
+      <div class="footer-license">
+       <p>© 2021 Uber Technologies Inc</p>
       </div>
-      </div>
-    </div>
-    <div class="space">
-    <hr>
-    </div>
-    <div class="final__links">
-      <div class="last__links">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms</a>
-      <a href="#">Pricing</a>
-      <a href="#">Do not sell my info(California)</a>
-      </div>
-    </div>
-    <div class="license">
-     <p>© 2021 Uber Technologies Inc</p>
     </div>
   </div>
 </footer>
