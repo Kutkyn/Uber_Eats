@@ -58,17 +58,17 @@ h6 {
 }
 
 body {
+  background: url("picture/picture_background.jpg");
+  background-size: 100% 720px;
+  background-repeat: no-repeat;
   font-family: "Trebuchet MS", sans-serif;
 }
 
 /* Header */
 
 .header {
-  background: url("picture/picture_background.jpg");
-  background-size: 100% 720px;
-  background-repeat: no-repeat;
   width: 100%;
-  height: 720px;
+  height: 96px;
 }
 
 .header-top__content {
@@ -133,32 +133,37 @@ body {
   font-weight: 700px;
 }
 
-.header-title {
+/*Search-form*/
+
+.section-form {
+  height: 624px;
+}
+
+.title-form {
   padding: 0 40px;
-  height: 200px;
   position: relative;
   top: 150px;
 }
 
-.title__text {
+.title-text {
   margin-bottom: 40px;
   font-size: 52px;
   font-weight: 700;
   line-height: 64px;
 }
 
-.header-search {
+.search {
   display: flex;
 }
 
-.header-search__form {
+.search__form {
   display: flex;
-  flex-basis: 60%;
+  flex: 0 0 860px;
   justify-content: space-between;
   height: 56px;
 }
 
-.header-search__input {
+.search__input {
   position: relative;
 }
 
@@ -186,7 +191,7 @@ body {
   transition: 0.2s;
 }
 
-.header-search__select-clock {
+.search__select-clock {
   position: relative;
 }
 
@@ -216,6 +221,7 @@ body {
   color: white;
   background-color: black;
   font-size: 18px;
+  border: 0;
 }
 
 .textlink {
@@ -228,7 +234,7 @@ body {
   text-decoration: underline;
 }
 
-.header-textlink {
+.form-textlink {
   margin-top: 24px;
   font-size: 14px;
   font-weight: 600;
