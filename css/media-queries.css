@@ -1,0 +1,369 @@
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 72px;
+    width: 100%;
+  }
+
+  .header-top__content {
+    padding: 0 16px;
+  }
+
+  .menu {
+    padding-right: 24px;
+  }
+
+  .link-login {
+    padding: 12px;
+    height: 36px;
+    width: 68.76px;
+    font-size: 14px;
+  }
+
+  /* Section-form */
+
+  .section-form {
+    height: 649px;
+  }
+
+  .title-form {
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    top: 50px;
+  }
+
+  .title-text {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .title-text::after {
+    content: " food to your door";
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .search {
+    display: block;
+    height: 200px;
+  }
+
+  .search__form {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .input {
+    margin: 8px 0;
+    width: 397.91px;
+  }
+
+  .location-icon {
+    left: 16px;
+    top: 25px;
+  }
+
+  .select {
+    padding-left: 47px;
+    margin-bottom: 16px;
+    width: 397.91px;
+  }
+
+  .clock-icon {
+    top: 18px;
+    left: 18px;
+  }
+
+  .button {
+    width: 397.91px;
+  }
+
+  .form-textlink {
+    text-align: center;
+  }
+
+  /* Section-info */
+
+  .container__info-links {
+    height: 1600px;
+    padding: 80px 16px 0;
+  }
+
+  .info-links {
+    flex-direction: column;
+  }
+
+  .info-links__image {
+    padding: 0;
+    width: 100%;
+  }
+
+  .image {
+    height: 411px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .image-title {
+    font-size: 24px;
+  }
+
+  .image-subtitle {
+    margin-bottom: 36px;
+  }
+
+  /* Section-map */
+
+  .google-map {
+    padding: 12px 16px 0;
+  }
+
+  .title {
+    text-align: bottom;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .google-map__map-title {
+    align-items: flex-end;
+  }
+
+  /* Section-countries */
+
+  .areas-columns {
+    padding: 0 16px;
+  }
+
+  .countries-columns {
+    padding: 48px 16px 0;
+  }
+
+  /* Footer */
+
+  .footer-bg {
+    margin-top: 64px;
+    padding: 64px 16px 88px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .header {
+    height: 72px;
+    width: 100%;
+  }
+
+  .header-top__content {
+    padding: 0 16px;
+  }
+
+  .menu {
+    padding-right: 24px;
+  }
+
+  .link-login {
+    padding: 12px;
+    height: 36px;
+    width: 68.76px;
+    font-size: 14px;
+  }
+
+  /* Section-form */
+
+  .section-form {
+    height: 649px;
+  }
+
+  .title-form {
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    top: 50px;
+  }
+
+  .title-text {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .title-text::after {
+    content: " food to your door";
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .search {
+    display: block;
+    height: 200px;
+  }
+
+  .search__form {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .input {
+    margin: 8px 0;
+    width: 343.2px;
+  }
+
+  .location-icon {
+    left: 16px;
+    top: 25px;
+  }
+
+  .select {
+    padding-left: 47px;
+    margin-bottom: 16px;
+    width: 343.2px;
+  }
+
+  .clock-icon {
+    top: 18px;
+    left: 18px;
+  }
+
+  .button {
+    width: 343.2px;
+  }
+
+  .form-textlink {
+    text-align: center;
+  }
+
+  /* Section-info */
+
+  .container__info-links {
+    height: 912px;
+    padding: 80px 16px 0;
+  }
+
+  .info-links {
+    flex-direction: column;
+  }
+
+  .info-links__image {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image {
+    height: 192.05px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .image-title {
+    font-size: 24px;
+  }
+
+  .image-subtitle {
+    margin-bottom: 36px;
+  }
+
+  /* Section-map */
+
+  .google-map {
+    padding: 12px 16px 0;
+  }
+
+  .title {
+    text-align: bottom;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .google-map__map-title {
+    align-items: flex-end;
+  }
+
+  /* Section-countries */
+
+  .areas-columns {
+    padding: 0 16px;
+  }
+
+  .countries-columns {
+    padding: 48px 16px 0;
+  }
+
+  .col-for-small-screen {
+    display: none;
+  }
+
+  /* Footer */
+
+  .footer-bg {
+    margin-top: 64px;
+    padding: 64px 16px 80px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-size: 100% auto;
+    color: white;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-content__logo {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  .link-logo-footer {
+    margin-bottom: 48px;
+  }
+
+  .footer-content__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-list-small-screen {
+    width: 236px;
+    height: 224px;
+    margin-bottom: 64px;
+  }
+
+  .footer-content__bottom {
+    height: 220px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-network {
+    margin-bottom: 30px;
+    display: flex;
+    width: 96px;
+    justify-content: space-between;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .bottom-content-link {
+    margin-bottom: 16px;
+  }
+
+  .license-for-small-screen {
+    display: block;
+  }
+
+  .license {
+    display: none;
+  }
+}

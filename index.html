@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <title>UberEats</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="120x120" href="css/picture/Favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="css/picture/Favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="css/picture/Favicon/favicon-16x16.png">
@@ -37,7 +39,7 @@
   <main class="main-content">
     <section class="section-form">
       <div class="title-form">
-        <h1 class="title-text">Order your neighborhood's top spots</h1>
+        <h1 class="title-text">Order</h1>
         <div class="search">
           <form class="search__form">
             <div class="search__input">
@@ -129,7 +131,7 @@
           <a href="#">Khmelnytskyi</a>
           <a href="#">Cherkasy</a>
         </div>
-        <div class="column">
+        <div class="column col-for-small-screen">
           <a href="#">Kyiv</a>
           <a href="#">Lviv</a>
           <a href="#">Mykolaiv</a>
@@ -137,7 +139,7 @@
           <a href="#">Chernihiv</a>
           <a href="#">Chernivtsi</a>
         </div>
-        <div class="column">
+        <div class="column col-for-small-screen">
           <a href="#">Poltava</a>
           <a href="#">Rivne</a>
           <a href="#">Sumy</a>
@@ -167,7 +169,7 @@
             <a href="#">Italy</a>
             <a href="#">Portugal</a>
           </div>
-          <div class="column">
+          <div class="column col-for-small-screen">
             <a href="#">Switzerland</a>
             <a href="#">Chile</a>
             <a href="#">New Zelandia</a>
@@ -175,7 +177,7 @@
             <a href="#">South Africa</a>
             <a href="#">Belgium</a>
           </div>
-          <div class="column">
+          <div class="column col-for-small-screen">
             <a href="#">Ecuador</a>
             <a href="#">Ireland</a>
             <a href="#">Sri Lanka</a>
@@ -191,7 +193,7 @@
     <div class="footer-bg">
       <div class="footer-content">
         <div class="footer-content__logo">
-          <a href="#" class="link-logo">Uber</a>
+          <a href="#" class="link-logo link-logo-footer">Uber</a>
           <div class="download-link">
             <a href="#">
               <img src="css/picture/app_store_icon.png">
@@ -202,7 +204,7 @@
           </div>
         </div>
         <div class="footer-content__menu">
-          <nav class="menu-list">
+          <nav class="menu-list menu-list-small-screen">
             <ul>
               <li><a href="#">Get Help</a></li>
               <li><a href="#">Buy gift cards</a></li>
@@ -241,15 +243,14 @@
           </ul>
         </div>
         <div class="bottom-content">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms</a>
-          <a href="#">Pricing</a>
-          <a href="#">Do not sell my info(California)</a>
+          <a class="bottom-content-link" href="#">Privacy Policy</a>
+          <a class="bottom-content-link" href="#">Terms</a>
+          <a class="bottom-content-link" href="#">Pricing</a>
+          <a class="bottom-content-link" href="#">Do not sell my info(California)</a>
+          <p class="license-for-small-screen">© 2021 Uber Technologies Inc</p>
         </div>
       </div>
-      <div class="license">
-        <p>© 2021 Uber Technologies Inc</p>
-      </div>
+      <p class="license">© 2021 Uber Technologies Inc</p>
     </div>
   </footer>
 </body>
