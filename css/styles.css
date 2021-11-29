@@ -184,7 +184,6 @@ body {
   background-color: #eee;
   padding-left: 50px;
   width: 540px;
-  max-height: 56px;
   height: 56px;
   font-size: 17px;
   border: 0;
@@ -441,6 +440,10 @@ li {
 
 .bottom-content a:hover {
   text-decoration: underline;
+}
+
+.bottom-content-link {
+  text-align: right;
 }
 
 .license-for-small-screen {
