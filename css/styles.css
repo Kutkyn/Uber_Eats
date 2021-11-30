@@ -86,7 +86,8 @@ body {
 }
 
 .menu {
-  padding-top: 10px;
+  padding-top: 14px;
+  padding-right: 32px;
 }
 
 .image-menu {
@@ -130,10 +131,10 @@ body {
   background-color: #eee;
   color: #000;
   font-size: 18px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
-/*Search-form*/
+/* Section-form */
 
 .section-form {
   height: 624px;
@@ -150,6 +151,10 @@ body {
   font-size: 52px;
   font-weight: 700;
   line-height: 64px;
+}
+
+.title-text::after {
+  content: " your neighborhood's top spots";
 }
 
 .search {
@@ -179,7 +184,6 @@ body {
   background-color: #eee;
   padding-left: 50px;
   width: 540px;
-  max-height: 56px;
   height: 56px;
   font-size: 17px;
   border: 0;
@@ -240,7 +244,7 @@ body {
   font-weight: 600;
 }
 
-/* Основная информация страницы */
+/* Section-info */
 
 .container__info-links {
   padding: 80px 40px 0;
@@ -250,22 +254,21 @@ body {
 .info-links {
   display: flex;
   justify-content: center;
-  flex-basis: 100%;
 }
 
 .info-links__image {
   padding: 0 10px;
+  width: 33%;
 }
 
 .image {
-  width: 463.73px;
   height: 259.5px;
-  object-fit: cover;
+  width: 100%;
   margin-bottom: 8px;
 }
 
 .image-title {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 800;
   color: black;
 }
@@ -277,7 +280,7 @@ body {
   color: black;
 }
 
-/* Блок карты */
+/* Section-map */
 
 .google-map {
   padding: 80px 40px 0;
@@ -303,12 +306,12 @@ body {
 
 .map-coordinates {
   height: 360px;
-  width: 1439.2px;
+  width: 100%;
   padding-top: 20px;
   border: 0;
 }
 
-/* Области */
+/* Section-areas */
 
 .areas-columns {
   margin-top: 24px;
@@ -330,7 +333,7 @@ body {
   color: #000;
 }
 
-/* Страны */
+/* Section-countries */
 
 .countries-columns {
   padding: 80px 40px 0;
@@ -351,6 +354,7 @@ body {
   width: 100%;
   height: 521px;
   background-color: #000;
+  background-size: 100% auto;
   color: white;
 }
 
@@ -415,7 +419,7 @@ li {
 .social-network {
   display: flex;
   justify-content: space-around;
-  flex-basis: 96px;
+  width: 96px;
 }
 
 .social-icon {
@@ -436,6 +440,14 @@ li {
 
 .bottom-content a:hover {
   text-decoration: underline;
+}
+
+.bottom-content-link {
+  text-align: right;
+}
+
+.license-for-small-screen {
+  display: none;
 }
 
 .license {
